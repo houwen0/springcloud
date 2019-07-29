@@ -1,0 +1,31 @@
+网关：
+  a.限流-测试-必须
+    通用的限流：业务限流、IP地址限流、接口限流-ok
+    实现RateLimiter
+    多个keyresolver定义  ok
+    多个keyresolver使用：例如 既要做用户限流又要对ip限流？
+  b.Hystrix熔断-超时熔断和宕机熔断-ok
+  c.过滤器
+    全局过滤器-ok
+    gateway过滤器自定义-ok，遗留yaml文件中配置有问题，只能通过RouteLocator方式
+  d.ssl添加-ok
+  e.jwt-ok
+  f.动态路由
+    consul-ok
+
+
+consul
+1.服务发现-ok
+2.安全
+  https://www.jianshu.com/p/d996c08759ad
+  https://www.jianshu.com/p/b6e4d7e4f202
+  https://learn.hashicorp.com/consul/security-networking/production-acls
+
+3.集群
+    https://jeremy-xu.oschina.io/2018/05/consul%E5%AE%89%E5%85%A8%E5%8A%A0%E5%9B%BA/
+    https://segmentfault.com/a/1190000015270309
+4.自动更新，还是重启更新
+
+5.kv存储-ok
+
+
